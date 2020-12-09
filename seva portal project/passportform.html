@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>passportform</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="width: 835px;"><img src="assets/img/passhead.PNG" style="margin-left: 220px;width: 900px;">
+    <div class="container" style="width: 900px;margin-left: 220px;">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Applying for*</th>
+                        <th><select required=""><option value="undefined" selected=""></option><option value="12">Fresh Passport</option><option value="13">Re-issue of Passport</option></select></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Gender*</strong></td>
+                        <td><select name="Female" required=""><option value="" selected=""></option><option value="13">Male</option><option value="14">Female</option><option value="">Transgender</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Citizenship of India By*</strong></td>
+                        <td><select><option value="undefined" selected=""></option><option value="12">Birth</option><option value="13">Descent</option><option value="14">Registration/Naturalisation</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Education Qualification*</strong></td>
+                        <td><select><option value="undefined" selected=""></option><option value="">7th Pass or less</option><option value="">10th Pass and above</option><option value="">Graduate and above</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aadhar Number*</strong></td>
+                        <td><input type="text" required="" pattern="0-9" minlength="12" maxlength="16"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td><strong>Pan Number*</strong></td>
+                        <td><input type="text" required="" minlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Address*</strong></td>
+                        <td><textarea style="width: 250px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Contact Number*</strong></td>
+                        <td><input type="text" required="" minlength="10" pattern="0-9"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
